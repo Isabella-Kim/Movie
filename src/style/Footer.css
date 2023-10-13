@@ -1,0 +1,42 @@
+.Footer {
+  margin: auto;
+  text-align: center;
+  background-color: #161616;
+  width: 100%;
+  color: #fff;
+  padding: 2rem 0;
+}
+.Footer a {
+  color: #fff;
+  text-decoration: none;
+}
+.footerIcons {
+  align-items: center;
+  margin: 3rem 0 2rem 0;
+}
+
+.footerIcons a {
+  margin: 0 1.5rem;
+  transition: 0.3s;
+}
+.footerIcons .fa {
+  transform: scale(1.8);
+}
+.footerIcons a:hover {
+  color: #be123c;
+}
+.footerTop {
+  margin: 2rem 0;
+}
+.footerTop a {
+  padding: 1rem;
+  font-weight: 700;
+  transition: 0.3s;
+}
+.footerTop a:hover {
+  color: #be123c;
+}
+.footerBottom {
+  margin: 2rem 0 3rem 0;
+  font-weight: 700;
+}

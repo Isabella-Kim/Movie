@@ -1,0 +1,29 @@
+/* Cast */
+.Casts h1 {
+  font-size: 2rem;
+  color: #e6b91e;
+  font-weight: 900;
+}
+.CastList {
+  display: flex;
+  justify-content: space-between;
+}
+/* CastCard */
+.castCardWrap img {
+  width: 200px;
+  height: 300px;
+  border-radius: 0.2rem;
+}
+.castCardWrap h4 {
+  font-size: 1rem;
+  color: #818181;
+  font-weight: 500;
+}
+.castCardWrap .br {
+  width: 200px;
+  height: 1px;
+  background-color: #8d8d8d;
+}
+.castCardWrap h3 {
+  color: #fff;
+}

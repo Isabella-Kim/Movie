@@ -1,0 +1,78 @@
+/* MovieGenre */
+.movieGenre {
+  width: 100%;
+  margin: auto;
+}
+.movieGenre > h2 {
+  margin-top: 5rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #be123c;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.GenreMovie .genreTitle {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #fff;
+  margin: auto;
+  width: 1200px;
+  height: fit-content;
+  background-color: #be123c;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+.genrePartList {
+  width: 1200px;
+  margin: 3rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+/* Card */
+.genreBox {
+  width: 200px;
+  position: relative;
+}
+.genreBox img {
+  width: 200px;
+  height: 300px;
+  cursor: pointer;
+  transition: 0.25s;
+  border-radius: 0.2rem;
+}
+.genreBox img:hover {
+  border: 5px solid var(--color-point1);
+  position: relative;
+}
+.genreBox img::before {
+  content: "VIEW DETAIL";
+  position: absolute;
+  display: block;
+  color: #fff;
+  font-weight: 500;
+  padding: 0.5rem 2rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--color-point1);
+  border-radius: 0.2rem;
+}
+.genreBox h1 {
+  width: 200px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+}
+/* 반응형 */
+@media all and (min-width: 1024px) {
+}
+@media (max-width: 1023px) and (min-width: 768px) {
+  .genrePartList {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+  }
+}
+@media all and (max-width: 767px) {
+}

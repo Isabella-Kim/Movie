@@ -1,0 +1,29 @@
+:root {
+  /* color */
+  --color-bk1: #000;
+  --color-bk2: #101010;
+  --color-bk3: #161616;
+  --color-point1: #be123c;
+  --color-point2: #e6b91e;
+  /* font size*/
+  --font-xs: 0.6rem; /* 12px */
+  --font-s: 0.938; /* 15px */
+  --font-m: 1.125rem; /* 18px */
+  --font-l: 2.25rem; /* 36px */
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Poppins", sans-serif !important;
+  margin: 0;
+}
+.badge_01 {
+  background-color: var(--color-point2);
+  display: inline-block;
+  padding: 0.18rem 0.4rem;
+  margin-right: 0.5rem;
+  text-align: center;
+  font-weight: 700;
+  color: var(--color-bk3);
+  border-radius: 3px;
+  font-stretch: semi-expanded;
+}

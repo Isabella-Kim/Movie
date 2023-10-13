@@ -1,0 +1,63 @@
+.detailBox {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+.detailTop {
+  width: 80%;
+  height: 700px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  position: relative;
+}
+.detailTop .detailPoster {
+  width: 300px;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex: 1;
+  position: absolute;
+  left: 15%;
+}
+.detailTop .detailPoster img {
+  border-radius: 0.2rem;
+}
+.detailTop .detailCard {
+  color: #fff;
+  width: 50%;
+  flex: 2;
+  position: absolute;
+  right: 8%;
+}
+.detailCard .detailTitle {
+  font-size: var(--font-l);
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.detailCard .detailGenre span {
+  margin-right: 1.5rem;
+  font-size: var(--font-s);
+  width: fit-content;
+  background-color: #be123c;
+  padding: 0.2rem 0.4rem;
+  border-radius: 5px;
+}
+.detailCard .detailInfoTop {
+  font-size: var(--font-m);
+  margin-top: 1rem;
+}
+.detailCard .detailInfoBottom {
+  font-size: var(--font-m);
+  margin: 1rem 0;
+}
+.detailCard p {
+  margin-top: 1rem;
+}
+.detailBottom {
+  width: 58%;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+}

@@ -1,0 +1,34 @@
+.Modal {
+  width: 65vw;
+  height: 800px;
+  border: 5px solid var(--color-bk2);
+  background-color: rgba(0, 0, 0, 0.9);
+  position: absolute;
+  transform: translate(-40%, -55%);
+}
+.modalTop {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 3.5rem;
+}
+.modalTop .closeModal,
+.modalTop h2 {
+  color: var(--color-point1);
+}
+.modalTop h2 {
+  font-size: var(--font-l);
+}
+.modalTop .svg-inline--fa {
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.modalTop .svg-inline--fa:hover {
+  color: var(--color-point2);
+}
+.modalVideo {
+  text-align: end;
+}

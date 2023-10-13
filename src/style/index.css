@@ -1,0 +1,110 @@
+body {
+  background-color: var(--color-bk3);
+}
+/* MovieSlide */
+.movieSlideWrap {
+  margin: auto;
+  margin-top: 5rem;
+}
+.movieSlideWrap h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+.react-multiple-carousel__arrow {
+  background: transparent !important;
+}
+.react-multiple-carousel__arrow::before {
+  color: #be123c !important;
+  font-size: 40px !important;
+}
+/* MovieCard */
+.MovieCard {
+  width: 200px;
+  height: 300px;
+  background-size: cover;
+  cursor: pointer;
+  border-radius: 0.2rem;
+}
+/* MovieCard의 컴포넌트 */
+.overlay {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.75);
+  overflow-y: auto;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  transition: 0.35s;
+  color: #fff;
+  padding: 1.5rem;
+  box-sizing: border-box;
+  border-radius: 0.2rem;
+}
+.overlay::-webkit-scrollbar {
+  width: 4px; /* 세로축 스크롤바 폭 너비 */
+  height: 4px; /* 가로축 스크롤바 폭 너비 */
+}
+.overlay::-webkit-scrollbar-thumb {
+  background: #be123c; /* 스크롤바 색상 */
+  border-radius: 10px; /* 스크롤바 둥근 테두리 */
+}
+.overlay::-webkit-scrollbar-track {
+  background: rgba(220, 20, 60, 0.1); /*스크롤바 뒷 배경 색상*/
+}
+.overlay p {
+  font-size: 0.8rem;
+}
+.overlay h2 {
+  color: #fff;
+  font-size: 1.5rem;
+}
+.overlay .badge_01,
+.overlay h3 {
+  font-size: 0.8rem;
+}
+.MovieCard:hover .overlay {
+  opacity: 1;
+}
+.genreWrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.genreWrap .genre {
+  margin-right: 0.3rem;
+}
+/* 반응형 */
+@media all and (min-width: 1024px) {
+  .movieSlideWrap {
+    min-width: 80%;
+    max-width: 1024px;
+  }
+  .MovieCard {
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+  }
+}
+@media all and (min-width: 768px) {
+  .movieSlideWrap {
+    width: 90%;
+  }
+  .MovieCard {
+    width: 200px;
+    height: 300px;
+    background-size: cover;
+  }
+}
+@media all and (max-width: 767px) {
+  .movieSlideWrap {
+    width: 80%;
+  }
+  .MovieCard {
+    width: 100%;
+    height: 90%;
+  }
+  .movieSlideWrap h2 {
+    text-align: center;
+    margin: 2rem 0;
+  }
+}
