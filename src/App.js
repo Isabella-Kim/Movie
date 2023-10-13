@@ -18,6 +18,7 @@ import MovieDetail from "./pages/MovieDetail";
 import Search from "./pages/Search";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Login from "./pages/Login";
 
 const App = () => (
   <div className="App">
@@ -27,6 +28,7 @@ const App = () => (
       <Route path="/movies" element={<Movie />} />
       <Route path="/movies/:id" element={<MovieDetail />} />
       <Route path="/search" element={<Search />} />
+      <Route path="/login" element={<Login />} />
     </Routes>
     <Footer />
   </div>

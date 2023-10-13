@@ -1,8 +1,8 @@
 .navWrap {
   background-color: #0000008b;
   padding: 1rem 0;
-  position: fixed;
-  z-index: 100;
+  /* position: fixed;
+  z-index: 100; */
   width: 100%;
 }
 .nav {
@@ -18,9 +18,11 @@
   color: #fff !important;
   text-decoration: none;
   transition: 0.3s;
+  font-weight: 500;
 }
 .navLeft a:hover {
-  color: #be123c;
+  color: #be123c !important;
+  font-weight: 500;
 }
 .navLeft a img {
   margin-right: 3rem;

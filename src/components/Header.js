@@ -11,8 +11,9 @@ const Header = () => {
             <img src="${process.env.PUBLIC_URL}/../images/logo.png" />
           </Link>
           <Link to="/">About</Link>
-          <Link to="/movies">Chart</Link>
-          <Link to="/">Event</Link>
+          <Link to="/movies">View</Link>
+          <Link to="/search">Search</Link>
+          <Link to="/login">Login</Link>
         </div>
         <div className="navRight">
           <form>
